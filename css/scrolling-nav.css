@@ -38,9 +38,15 @@ h2 {
   text-align: center;
 }
 
-img {
+.img-about {
   width: 300px;
   height: 300px;
+  border-radius: 50%;
+}
+
+.img-education {
+  width: 200px;
+  height: 200px;
   border-radius: 50%;
 }
 
