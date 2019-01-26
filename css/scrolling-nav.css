@@ -9,7 +9,7 @@ header {
 }
 
 section {
-  padding: 150px 0;
+  padding: 75px 0;
 }
 
 .linkBlack i{
@@ -36,6 +36,7 @@ h2 {
   width: 300px;
   height: 300px;
   border-radius: 50%;
+  border: 7px solid #F1F1F1;
 }
 
 .img-education {
@@ -43,6 +44,18 @@ h2 {
   height: 200px;
   border-radius: 50%;
 }
+
+.img-projects {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #F1F1F1;
+}
+
+.media {
+  padding: 30px;
+}
+
 
 
 
