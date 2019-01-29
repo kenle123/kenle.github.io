@@ -12,6 +12,11 @@ section {
   padding: 75px 0;
 }
 
+.animated {
+  animation-delay: 0.5s;
+  animation-duration: 2s;
+}
+
 .linkBlack i{
   color: black;
   text-decoration: none; 
