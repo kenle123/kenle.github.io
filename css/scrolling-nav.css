@@ -8,6 +8,10 @@ header {
   }
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 section {
   padding: 75px 0;
 }
