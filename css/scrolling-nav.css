@@ -17,7 +17,7 @@ section {
 }
 
 .animated {
-  animation-delay: 0.5s;
+  animation-delay: 0.1s;
   animation-duration: 2s;
 }
 
