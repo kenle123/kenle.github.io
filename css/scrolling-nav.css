@@ -1,3 +1,17 @@
+/* General */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+section {
+  padding: 75px 0;
+}
+
+h2 {
+  text-align: center;
+}
+
+/* Header */
 header {
   padding: 154px 0 100px;
 }
@@ -8,39 +22,12 @@ header {
   }
 }
 
-body {
-  font-family: 'Roboto', sans-serif;
-}
-
-section {
-  padding: 75px 0;
-}
-
 .animated {
   animation-delay: 0.1s;
   animation-duration: 2s;
 }
 
-.linkBlack i{
-  color: black;
-  text-decoration: none; 
-  background-color: none;
-  font-size: 8em;
-}
-
-i:hover {
-  opacity: 0.7;
-}
-
-.col-centered {
-  float: none;
-  margin: 0 auto;
-}
-
-h2 {
-  text-align: center;
-}
-
+/* About Section */
 .img-about {
   width: 300px;
   height: 300px;
@@ -48,12 +35,18 @@ h2 {
   border: 7px solid #F1F1F1;
 }
 
+/* Education Section */
 .img-education {
   width: 200px;
   height: 200px;
   border-radius: 50%;
 }
 
+.education_gpa {
+  font-weight: 700;
+}
+
+/* Projects Section */
 .img-projects {
   width: 200px;
   height: 200px;
@@ -65,6 +58,14 @@ h2 {
   padding: 30px;
 }
 
+/* Contact Section */
+.linkBlack i{
+  color: black;
+  text-decoration: none; 
+  background-color: none;
+  font-size: 8em;
+}
 
-
-
+i:hover {
+  opacity: 0.7;
+}
