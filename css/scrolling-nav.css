@@ -54,6 +54,14 @@ header {
   border: 10px solid #F1F1F1;
 }
 
+.img-projects2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 10px solid #F1F1F1;
+  background: #FECA30;
+}
+
 .media {
   padding: 30px;
 }
@@ -64,6 +72,11 @@ header {
   text-decoration: none; 
   background-color: none;
   font-size: 8em;
+  /* display: flex;
+  display: -webkit-flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around; */
 }
 
 i:hover {
