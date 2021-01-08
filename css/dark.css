@@ -46,7 +46,7 @@
 .top-dark-mode-button:after {
     content: 'DARK';
     position: absolute;
-    color: #ee6c4d;
+    color: #fff;
     -webkit-transform: rotate(90deg);
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
