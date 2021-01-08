@@ -118,7 +118,7 @@
             Data Structures with Applications, Machine Learning and Data Mining, Introduction to Artificial Intelligence,
             Computer and Communication Networks, Computer Security, Parallel Distributed Computing, Operating Systems
             <span class="bolded"><br>Graduated December 2020</span>.</p>
-          <img class="img-education" src="Images/educationUCI.png" alt="UCI">
+          <img class="img-education" src="Images/educationUCI2.png" alt="UCI">
           <br><br><hr><br>
           
           <h4><span class="bolded">California State University, Long Beach</span></h4>
@@ -128,8 +128,7 @@
             Data Structures and Algorithms, Object Oriented Application Development,
             Web Programming and Accessibility, Software Engineering, Database Fundamentals
             <span class="bolded"><br>GPA: 3.93</span>.</p>
-          <img class="img-education" src="Images/educationCSULB.png" alt="CSULB">
-
+          <img class="img-education" src="Images/educationCSULB2.png" alt="CSULB">
         </div>
       </div>
     </div>
@@ -191,7 +190,7 @@
             </div>
           </div>
           <div class="media">
-            <img class="img-projects mr-5" src="Images/test.PNG" alt="Softflow">
+            <img class="img-projects mr-5" src="Images/Softflow.PNG" alt="Softflow">
             <div class="media-body">
               <h4>Softflow</h4>
               <p>A cloud-based workflow automation web application to streamline complex multi-step processes completely 
@@ -368,7 +367,6 @@
     // Dark Mode Action
     let darkMode = localStorage.getItem("darkMode");
     const darkModeToggle = document.querySelector('.dark-mode-button');
-    const darkModeToggleFooter = document.querySelector('footer .dark-mode-button');
 
     // Enable Dark Mode
     const enableDarkMode = () => {
@@ -395,19 +393,6 @@
             disableDarkMode();
         }
     })
-
-    // Footer button, optional. This is for if you have a second dark mode toggle button
-    //in the footer, just make sure the button is inside the footer tag, and it will be
-    //linked to this function.
-
-        darkModeToggleFooter.addEventListener('click', () => {
-            darkMode = localStorage.getItem("darkMode");
-            if (darkMode !== "enabled") {
-                enableDarkMode();
-            } else {
-                disableDarkMode();
-            }
-        })
   </script>
 
   <!-- Bootstrap core JavaScript -->
