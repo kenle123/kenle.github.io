@@ -11,6 +11,14 @@ h2 {
   text-align: center;
 }
 
+.header-color {
+  background-color: #0077B6;
+}
+
+.background-light {
+  background-color: #F8F9FA
+}
+
 /* Header */
 header {
   padding: 154px 0 100px;

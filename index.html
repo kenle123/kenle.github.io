@@ -20,6 +20,7 @@
 
   <!-- Stylesheet -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link href="css/dark.css" rel="stylesheet">
 
   <!-- FontAwesome -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
@@ -57,10 +58,15 @@
           </li>
         </ul>
       </div>
+      <button class="dark-mode-button top-dark-mode-button" aria-label="dark mode toggle">
+        <span aria-hidden="true" class="dark-toggle">
+            <span class="DTspan"></span>
+        </span>
+    </button>
     </div>
   </nav>
 
-  <header class="bg-info text-white">
+  <header class="header-color text-white">
     <div class="container text-center animated fadeInUp">
       <h1>Ken Le</h1>
     </div>
@@ -98,7 +104,7 @@
   </section>
 
   <!--Education-->
-  <section id="education" class="bg-light">
+  <section id="education" class="background-light">
     <div class="container text-center">
       <div class="row">
         <div class="col-lg-8 mx-auto">
@@ -167,7 +173,7 @@
   </section>
 
   <!--Projects-->
-  <section id="projects" class="bg-light">
+  <section id="projects" class="background-light">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-lg-10 mx-auto">
@@ -354,6 +360,55 @@
       </div>
     </div>
   </footer>
+
+  <script>
+    /* Body */
+    const body = document.querySelector('body');
+
+    // Dark Mode Action
+    let darkMode = localStorage.getItem("darkMode");
+    const darkModeToggle = document.querySelector('.dark-mode-button');
+    const darkModeToggleFooter = document.querySelector('footer .dark-mode-button');
+
+    // Enable Dark Mode
+    const enableDarkMode = () => {
+        body.classList.add("dark-mode");
+        localStorage.setItem("darkMode", "enabled")
+    }
+
+    // Disable Dark Mode
+    const disableDarkMode = () => {
+        body.classList.remove("dark-mode");
+        localStorage.setItem("darkMode", null)
+    }
+
+    if (darkMode == "enabled") {
+        enableDarkMode();
+    }
+
+    // Desktop Button
+    darkModeToggle.addEventListener('click', () => {
+        darkMode = localStorage.getItem("darkMode");
+        if (darkMode !== "enabled") {
+            enableDarkMode();
+        } else {
+            disableDarkMode();
+        }
+    })
+
+    // Footer button, optional. This is for if you have a second dark mode toggle button
+    //in the footer, just make sure the button is inside the footer tag, and it will be
+    //linked to this function.
+
+        darkModeToggleFooter.addEventListener('click', () => {
+            darkMode = localStorage.getItem("darkMode");
+            if (darkMode !== "enabled") {
+                enableDarkMode();
+            } else {
+                disableDarkMode();
+            }
+        })
+  </script>
 
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
