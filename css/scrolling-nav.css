@@ -64,6 +64,7 @@ header {
   height: 200px;
   border-radius: 50%;
   border: 10px solid #F1F1F1;
+  margin-bottom: 1em;
 }
 
 .img-projects2 {
@@ -72,6 +73,7 @@ header {
   border-radius: 50%;
   border: 10px solid #F1F1F1;
   background: #FECA30;
+  margin-bottom: 1em;
 }
 
 .media {
