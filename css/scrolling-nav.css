@@ -96,3 +96,21 @@ header {
 i:hover {
   opacity: 0.7;
 }
+
+#hello {
+  animation-duration: 6.0s;
+  animation-iteration-count: infinite;
+}
+
+#heart {
+  display: inline-block;
+  animation-iteration-count: infinite;
+}
+
+#code {
+  display: inline-block;
+  /* color: #30cc8b; */
+  color: #00b300;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
