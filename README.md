@@ -3,5 +3,5 @@
 My personal portfolio website. 
 Pretty much my resume but online.
 
-Last Updated: 09/02/2022
+Last Updated: 12/20/2024
 
