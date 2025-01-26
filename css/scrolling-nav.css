@@ -114,3 +114,7 @@ i:hover {
   animation-duration: 5s;
   animation-iteration-count: infinite;
 }
+
+body .text-red {
+  color: red !important;
+}
